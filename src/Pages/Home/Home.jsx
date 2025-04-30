@@ -7,8 +7,8 @@ import BrandCard from "./BrandCard/BrandCard";
 import FastLaunch from "./FastLaunch/FastLaunch";
 // import Posts from "./Posts/Posts";
 import ObviCard from "./ObviCard/ObviCard";
-// import RiskCard from "./RiskCard/RiskCard";
-// import Trends from "./Trends/Trends";
+import RiskCard from "./RiskCard/RiskCard";
+import Trends from "./Trends/Trends";
 
 const Home = () => {
   return (
@@ -38,17 +38,16 @@ const Home = () => {
       {/* <div>
         <Posts />
       </div> */}
-
       <div>
         <ObviCard />
       </div>
-      {/* 
+
       <div>
         <RiskCard />
       </div>
       <div>
         <Trends />
-      </div> */}
+      </div>
     </>
   );
 };

@@ -4,42 +4,57 @@ import logo1 from "../../../assets/images/logo1.png";
 import logo2 from "../../../assets/images/logo2.png";
 import logo3 from "../../../assets/images/logo3.png";
 import logo4 from "../../../assets/images/logo4.png";
+
 const ObviCard = () => {
   return (
     <>
-      <div className="w-full h-[905.98px] bg-purple-bglight">
-        <div className="mx-[75px] ">
-          <div className="flex ">
+      <div className="w-full md:h-[905.98px] h-[1000.98px] bg-purple-bglight">
+        <div className="xl:mx-[75px] ">
+          <div className="md:flex ">
             <div>
-              <img src={obvi} alt="ov" className="mt-[101.25px]" />
+              <img
+                src={obvi}
+                alt="ov"
+                className="xl:mt-[101.25px] lg:mt-[80px] md:mt-[70px] sm:mt-[60px] xs:mt-[50px]
+              xl:w-[613px] xl:h-[601.05px]
+              lg:w-[500px] lg:h-[400px]
+              md:w-[781px] md:h-[350px]
+              sm:w-[400px] sm:h-[314px]
+              xs:w-[350px] xs:h-[300px]
+              "
+              />
             </div>
-            <div className="ml-[64px]">
-              <p className="font-bold text-[63px] text-black-heads mt-[89px] max-w-[565.26px]">
+
+            <div className="xl:ml-[64px] lg:ml-[20px] md:ml-[0px]">
+              <p
+                className="font-bold 
+              xl:text-[63px] lg:text-[50px] md:text-[41px] sm:text-[35px] xs:text-[32px] text-black-heads mt-[89px] xl:max-w-[565.26px]"
+              >
                 How Obvi Drives Profits with Hands-Off Postcard Campaigns
               </p>
-              <p className="mt-[36px] font-medium text-[20px] text-gray-sub max-w-[555.81px]">
+              <p className="mt-[36px] font-medium lg:text-[20px] md:text-[18px] sm:text-[17px] text-gray-sub xl:max-w-[555.81px]">
                 The 🚀 supplements brand wanted to offset high ad costs and
                 reach dormant customers. They scored 1000%+ ROIs.
               </p>
               <div className="flex mt-[48px]">
-                <div className="w-[172.33px] h-[55px]">
-                  <p className="font-bold text-[34px] text-black-heads">
+                <div className="xl:w-[172.33px] h-[55px]">
+                  <p className="font-bold sm:text-[34px] text-black-heads">
                     1468%
                   </p>
                   <p className="font-medium text-[14px] pl-[5px] text-gray-sub pt-[2px]">
                     ROI
                   </p>
                 </div>
-                <div className="w-[172.33px] h-[55px] ml-[48px]">
-                  <p className="font-bold  text-[35px] text-black-heads">
+                <div className="xl:w-[172.33px] h-[55px] ml-[48px]">
+                  <p className="font-bold  sm:text-[35px] text-black-heads">
                     8.59%
                   </p>
                   <p className="font-medium text-[14px] text-gray-sub pt-[2px]">
                     Conversion Rate
                   </p>
                 </div>
-                <div className="w-[172.33px] h-[55px] ml-[48px]">
-                  <p className="font-bold  text-[34px] text-black-heads">
+                <div className="xl:w-[172.33px] h-[55px] ml-[48px]">
+                  <p className="font-bold  sm:text-[34px] text-black-heads">
                     $73,457
                   </p>
                   <p className="font-medium text-[14px] text-gray-sub pt-[2px]">
@@ -49,7 +64,7 @@ const ObviCard = () => {
               </div>
               <div className="mt-[48px]">
                 <button
-                  className="w-[232.56px] h-[64px]
+                  className="sm:w-[232.56px] xs:w-[200px] h-[64px]
                  bg-white-light rounded-lg text-[14px]
                   font-bold text-black-heads
                   border border-black-darkest border-r-[7px] border-b-[4px]
@@ -60,9 +75,9 @@ const ObviCard = () => {
               </div>
             </div>
           </div>
-          <div className="w-[1290px] h-[53.98px] mt-[48px]">
+          <div className="xl:w-[1290px] h-[53.98px] mt-[48px]">
             <div className="flex">
-              <div className="ml-[684.72px]">
+              <div className="xl:ml-[684.72px] lg:ml-[263px] md:ml-[288px]">
                 <img src={logo1} alt="l1" />
               </div>
               <div>
