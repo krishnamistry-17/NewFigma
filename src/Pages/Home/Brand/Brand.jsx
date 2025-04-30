@@ -10,31 +10,128 @@ import four from "../../../assets/images/four.png";
 const Brand = () => {
   return (
     <>
-      <div className="w-full h-[666.5px] bg-white-light font-inter">
-        <div className="px-[394.5px] pt-[106px]">
-          <p className="font-bold text-[63px] max-w-[600px] h-[157px]">
+      <div
+        className="w-full 
+      xl:h-[666.5px] md:h-[569.5px] sm:h-[660px] xs:h-[1140px] 
+      border  bg-white-light font-inter"
+      >
+        <div
+          className="
+        xl:px-[394.5px] xl:pt-[106px] 
+        lg:pt-[75px] md:pt-[50px] sm:pt-[40px] xs:pt-[35px]
+        "
+        >
+          <p
+            className="font-bold text-center 
+          xl:text-[63px] lg:text-[53px] md:text-[45px] sm:text-[40px] xs:text-[35px] xl:max-w-[600px] xl:h-[157px]"
+          >
             Trusted by thousands of top DTC brands.
           </p>
         </div>
-        <div className="mx-[35px] mt-[58px] grid grid-cols-4">
-          <div>
-            <img src={image3} alt="i3" />
+
+        <div className="md:block hidden">
+          <div
+            className="
+        xl:mx-[35px] xl:gap-[0px] 
+        lg:gap-[10px] lg:mx-[20px] 
+        md:gap-[4px] md:mx-[10px]
+        lg:mt-[58px] md:mt-[40px] grid grid-cols-4"
+          >
+            <div>
+              <img src={image3} alt="i3" />
+            </div>
+            <div>
+              <img src={image4} alt="i4" />
+            </div>
+            <div>
+              <img src={image5} alt="i5" />
+            </div>
+            <div>
+              <img src={image6} alt="i6" />
+            </div>
           </div>
-          <div>
-            <img src={image4} alt="i4" />
-          </div>
-          <div>
-            <img src={image5} alt="i5" />
-          </div>
-          <div>
-            <img src={image6} alt="i6" />
+          <div className="xl:ml-[66px] lg:ml-[50px] md:ml-[30px] mt-[24px] grid grid-cols-4">
+            <img
+              src={first}
+              alt="fi"
+              className="
+          xl:w-[184.53px] xl:h-[32px]
+          lg:w-[150px] lg:h-[30px]
+          md:w-[140px] md:h-[30px]
+          "
+            />
+            <img
+              src={second}
+              alt="s"
+              className="xl:w-[235.03px] xl:h-[32px] lg:w-[150px] lg:h-[30px] md:w-[140px] md:h-[30px]"
+            />
+            <img
+              src={third}
+              alt="th"
+              className="ml-[30px] xl:w-[166px] xl:h-[32px] lg:w-[150px] lg:h-[30px] md:w-[140px] md:h-[30px]"
+            />
+            <img
+              src={four}
+              alt="fo"
+              className="ml-[80px] xl:w-[60px] xl:h-[32px] lg:w-[50px] lg:h-[30px] md:w-[30px] md:h-[30px]"
+            />
           </div>
         </div>
-        <div className="ml-[66px] mt-[24px] grid grid-cols-4">
-          <img src={first} alt="fi" />
-          <img src={second} alt="s" />
-          <img src={third} alt="th" className="ml-[30px]" />
-          <img src={four} alt="fo" className="ml-[80px]" />
+        <div className="md:hidden">
+          <div
+            className="
+        xl:mx-[35px] xl:gap-[0px] 
+        lg:gap-[10px] lg:mx-[20px]
+        md:gap-[4px] md:mx-[10px]
+        sm:gap-[15px] sm:mx-[10px]
+        xs:ml-[40px] xs:gap-[20px]
+        lg:mt-[58px] md:mt-[40px] sm:mt-[45px] xs:mt-[30px] grid md:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1"
+          >
+            <div>
+              <img src={image3} alt="i3" className="w-[228px] h-[161px]" />
+              <div className="md:hidden">
+                <img
+                  className=" sm:w-[130px] sm:h-[30px] xs:w-[110px] xs:h-[30px] mt-[10px] 
+                  sm:ml-[50px] xs:ml-[50px]"
+                  src={first}
+                  alt="f"
+                />
+              </div>
+            </div>
+            <div>
+              <img src={image4} alt="i4" className="w-[228px] h-[161px]" />
+              <div className="md:hidden">
+                <img
+                  className=" sm:w-[130px] sm:h-[30px] xs:w-[120px] xs:h-[30px]
+                  mt-[10px] 
+                  sm:ml-[50px] xs:ml-[50px]"
+                  src={second}
+                  alt="f"
+                />
+              </div>
+            </div>
+            <div>
+              <img src={image5} alt="i5" className="w-[228px] h-[161px]" />
+              <div className="md:hidden">
+                <img
+                  className=" sm:w-[110px] sm:h-[30px] xs:w-[100px] xs:h-[30px]  mt-[10px] 
+                  sm:ml-[50px] xs:ml-[60px]"
+                  src={third}
+                  alt="f"
+                />
+              </div>
+            </div>
+            <div>
+              <img src={image6} alt="i6" className="w-[228px] h-[161px]" />
+              <div className="md:hidden">
+                <img
+                  className=" sm:w-[60px] sm:h-[30px] xs:w-[70px] xs:h-[30px mt-[10px] ml-[80px]"
+                  src={four}
+                  alt="f"
+                />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
