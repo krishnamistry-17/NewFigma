@@ -10,28 +10,33 @@ const BrandCard = () => {
     <>
       <div
         className="xl:h-[1499.53px] lg:h-[1399px] md:h-[1120px]
-      sm:h-[1535px] xs:h-[3222px]
+      sm:h-[1535px] xs:h-[3000px]
      w-full bg-white-light font-inter"
       >
         <div className="xl:mx-[75px]   h-[1399.53px]  ">
           <div className="mt-[96px]">
-            <p className="font-bold lg:text-[64px] md:text-[50px] sm:text-[45px] xs:text-[40px] text-black-heads xl:ml-[220px]">
-              Everything your brand needs to
-            </p>
-            <p className="xl:px-[295.34px] font-bold text-black-heads lg:text-[51px] md:text-[45px] sm:text-[40px] xs:text-[35px]">
-              make your brand unforgettable
-            </p>
+            <div className="text-center">
+              <p
+                className="font-bold lg:text-[64px] md:text-[50px] sm:text-[45px] xs:text-[25px] text-black-heads 
+            "
+              >
+                Everything your brand needs to make your brand unforgettable
+              </p>
+            </div>
           </div>
 
-          <div className="mt-[64px]">
-            <div className="grid md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 xl:gap-[30px] lg:gap-[10px] md:gap-[10px] sm:gap-[10px] xs:gap-[20px]">
+          <div className="sm:mt-[64px] xs:mt-[20px] justify-center items-center flex">
+            <div
+              className="grid md:grid-cols-3 sm:grid-cols-2 xs:grid-cols-1 sm:mx-[0px] xs:mx-[5px] 
+            xl:gap-[30px] lg:gap-[10px] md:gap-[10px] sm:gap-[10px] xs:gap-[20px]"
+            >
               <div
                 className="
                 xl:w-[410px] xl:h-[506.53px]
                 lg:w-[323px] lg:h-[450px]
                 md:w-[248px] md:h-[361px]
                 sm:w-[239px] sm:h-[347px]
-                xs:w-[323px] xs:h-[450px]
+                xs:w-[310px] xs:h-[450px]
                bg-cream-card rounded-md"
               >
                 <img
@@ -43,7 +48,7 @@ const BrandCard = () => {
                 lg:w-[280px] lg:h-[200px]
                 md:w-[187px] md:h-[137px]
                 sm:w-[180px] sm:h-[130px]
-                 xs:w-[280px] xs:h-[200px]
+                 xs:w-[255px] xs:h-[177px]
                 "
                 />
                 <div className="text-center lg:mt-[48px] md:mt-[10px] sm:mt-[10px] xs:mt-[30px]">
@@ -64,14 +69,14 @@ const BrandCard = () => {
                 lg:w-[323px] lg:h-[450px]
                 md:w-[248px] md:h-[361px]
                 sm:w-[239px] sm:h-[347px]
-                 xs:w-[323px] xs:h-[450px]
+                 xs:w-[310px] xs:h-[450px]
           
                bg-sky-bg rounded-md"
               >
                 <img
                   src={layer2}
                   alt="l2"
-                  className="xl:mx-[51px] lg:mx-[30px] md:mx-[20px] sm:mx-[15px] xs:mx-[30px] 
+                  className="xl:mx-[51px] lg:mx-[30px] md:mx-[20px] sm:mx-[15px] xs:mx-[14px] 
                   xl:mt-[84.57px] lg:mt-[64px] md:mt-[10px] sm:mt-[10px] xs:mt-[20px]
                 xl:w-[308px] xl:h-[150px]
                 lg:w-[280px] lg:h-[200px]
@@ -95,7 +100,7 @@ const BrandCard = () => {
                 lg:w-[323px] lg:h-[450px]
                 md:w-[248px] md:h-[361px]
                 sm:w-[239px] sm:h-[347px]
-                xs:w-[323px] xs:h-[450px]
+                xs:w-[310px] xs:h-[450px]
                bg-purple-bglight rounded-md"
               >
                 <img
@@ -127,7 +132,7 @@ const BrandCard = () => {
                 lg:w-[323px] lg:h-[450px]
                 md:w-[248px] md:h-[361px]
                 sm:w-[239px] sm:h-[347px]
-                xs:w-[323px] xs:h-[450px]
+                xs:w-[310px] xs:h-[450px]
                bg-sky-light rounded-md"
               >
                 <img
@@ -166,7 +171,7 @@ const BrandCard = () => {
                 lg:w-[323px] lg:h-[450px]
                 md:w-[248px] md:h-[361px]
                 sm:w-[239px] sm:h-[347px]
-                xs:w-[323px] xs:h-[450px]
+                xs:w-[310px] xs:h-[450px]
                bg-pink-lightbg rounded-md"
               >
                 <img
@@ -204,7 +209,7 @@ const BrandCard = () => {
                 lg:w-[323px] lg:h-[450px]
                 md:w-[248px] md:h-[361px]
                 sm:w-[239px] sm:h-[347px]
-                xs:w-[323px] xs:h-[450px]
+                xs:w-[310px] xs:h-[450px]
                bg-gray-lightbg rounded-md"
               >
                 <img

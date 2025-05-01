@@ -12,7 +12,7 @@ const Brand = () => {
     <>
       <div
         className="w-full 
-      xl:h-[666.5px] md:h-[569.5px] sm:h-[660px] xs:h-[1140px] 
+      xl:h-[666.5px] md:h-[569.5px] sm:h-[660px] xs:h-[1052px] 
       border  bg-white-light font-inter"
       >
         <div
@@ -23,13 +23,13 @@ const Brand = () => {
         >
           <p
             className="font-bold text-center 
-          xl:text-[63px] lg:text-[53px] md:text-[45px] sm:text-[40px] xs:text-[35px] xl:max-w-[600px] xl:h-[157px]"
+          xl:text-[63px] lg:text-[53px] md:text-[45px] sm:text-[40px] xs:text-[27px] xl:max-w-[600px] xl:h-[157px]"
           >
             Trusted by thousands of top DTC brands.
           </p>
         </div>
 
-        <div className="md:block hidden">
+        <div className="md:block hidden ">
           <div
             className="
         xl:mx-[35px] xl:gap-[0px] 
@@ -77,14 +77,14 @@ const Brand = () => {
             />
           </div>
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden justify-center items-center flex">
           <div
             className="
         xl:mx-[35px] xl:gap-[0px] 
         lg:gap-[10px] lg:mx-[20px]
         md:gap-[4px] md:mx-[10px]
-        sm:gap-[15px] sm:mx-[10px]
-        xs:ml-[40px] xs:gap-[20px]
+        sm:gap-[15px] sm:mx-[10px] xs:mx-[10px]
+         xs:gap-[20px]
         lg:mt-[58px] md:mt-[40px] sm:mt-[45px] xs:mt-[30px] grid md:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1"
           >
             <div>

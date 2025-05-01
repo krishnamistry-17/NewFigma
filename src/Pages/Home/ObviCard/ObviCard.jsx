@@ -8,7 +8,7 @@ import logo4 from "../../../assets/images/logo4.png";
 const ObviCard = () => {
   return (
     <>
-      <div className="w-full md:h-[905.98px] h-[1000.98px] bg-purple-bglight">
+      <div className="w-full md:h-[905.98px] sm:h-[626.98px] xs:h-[750.98px] bg-purple-bglight">
         <div className="xl:mx-[75px] ">
           <div className="md:flex ">
             <div>
@@ -20,7 +20,7 @@ const ObviCard = () => {
               lg:w-[500px] lg:h-[400px]
               md:w-[781px] md:h-[350px]
               sm:w-[400px] sm:h-[314px]
-              xs:w-[350px] xs:h-[300px]
+              xs:w-[295px] xs:h-[287px] md:block hidden
               "
               />
             </div>
@@ -28,33 +28,38 @@ const ObviCard = () => {
             <div className="xl:ml-[64px] lg:ml-[20px] md:ml-[0px]">
               <p
                 className="font-bold 
-              xl:text-[63px] lg:text-[50px] md:text-[41px] sm:text-[35px] xs:text-[32px] text-black-heads mt-[89px] xl:max-w-[565.26px]"
+              xl:text-[63px] lg:text-[50px] md:text-[41px] sm:text-[35px] md:pl-[0px] pl-[20px]
+               xs:text-[32px] text-black-heads mt-[89px] xl:max-w-[565.26px] sm:pt-[0px] xs:pt-[30px]"
               >
                 How Obvi Drives Profits with Hands-Off Postcard Campaigns
               </p>
-              <p className="mt-[36px] font-medium lg:text-[20px] md:text-[18px] sm:text-[17px] text-gray-sub xl:max-w-[555.81px]">
+              <p
+                className="mt-[36px] font-medium md:pl-[0px] pl-[20px]
+              lg:text-[20px] md:text-[18px] sm:text-[17px]
+               text-gray-sub xl:max-w-[555.81px]"
+              >
                 The 🚀 supplements brand wanted to offset high ad costs and
                 reach dormant customers. They scored 1000%+ ROIs.
               </p>
-              <div className="flex mt-[48px]">
+              <div className="sm:flex sm:mt-[48px] xs:mt-[21px] md:ml-[0px] ml-[20px]">
                 <div className="xl:w-[172.33px] h-[55px]">
-                  <p className="font-bold sm:text-[34px] text-black-heads">
+                  <p className="font-bold sm:text-[34px] xs:text-[18px] text-black-heads">
                     1468%
                   </p>
                   <p className="font-medium text-[14px] pl-[5px] text-gray-sub pt-[2px]">
                     ROI
                   </p>
                 </div>
-                <div className="xl:w-[172.33px] h-[55px] ml-[48px]">
-                  <p className="font-bold  sm:text-[35px] text-black-heads">
+                <div className="xl:w-[172.33px] h-[55px] sm:ml-[48px] sm:mt-[0px] xs:mt-[8px]">
+                  <p className="font-bold  sm:text-[35px] xs:text-[18px] text-black-heads">
                     8.59%
                   </p>
                   <p className="font-medium text-[14px] text-gray-sub pt-[2px]">
                     Conversion Rate
                   </p>
                 </div>
-                <div className="xl:w-[172.33px] h-[55px] ml-[48px]">
-                  <p className="font-bold  sm:text-[34px] text-black-heads">
+                <div className="xl:w-[172.33px] h-[55px] sm:ml-[48px] sm:mt-[0px] xs:mt-[8px]">
+                  <p className="font-bold  sm:text-[34px] xs:text-[18px] text-black-heads">
                     $73,457
                   </p>
                   <p className="font-medium text-[14px] text-gray-sub pt-[2px]">
@@ -62,7 +67,7 @@ const ObviCard = () => {
                   </p>
                 </div>
               </div>
-              <div className="mt-[48px]">
+              <div className="sm:mt-[48px] xs:mt-[20px]  md:ml-[0px] ml-[20px]">
                 <button
                   className="sm:w-[232.56px] xs:w-[200px] h-[64px]
                  bg-white-light rounded-lg text-[14px]

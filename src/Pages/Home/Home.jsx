@@ -5,10 +5,11 @@ import Days from "./Days/Days";
 import BigCard from "./Bigcard/BigCard";
 import BrandCard from "./BrandCard/BrandCard";
 import FastLaunch from "./FastLaunch/FastLaunch";
-// import Posts from "./Posts/Posts";
+import Posts from "./Posts/Posts";
 import ObviCard from "./ObviCard/ObviCard";
 import RiskCard from "./RiskCard/RiskCard";
 import Trends from "./Trends/Trends";
+import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
@@ -16,9 +17,11 @@ const Home = () => {
       <div>
         <Card />
       </div>
+
       <div>
         <Brand />
       </div>
+
       <div>
         <Days />
       </div>
@@ -31,13 +34,15 @@ const Home = () => {
         <BrandCard />
       </div>
 
+      {/*acordian */}
+
       <div>
         <FastLaunch />
       </div>
 
-      {/* <div>
+      <div>
         <Posts />
-      </div> */}
+      </div>
       <div>
         <ObviCard />
       </div>
@@ -47,6 +52,9 @@ const Home = () => {
       </div>
       <div>
         <Trends />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );
