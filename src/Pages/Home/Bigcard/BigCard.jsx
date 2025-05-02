@@ -38,7 +38,7 @@ const BigCard = () => {
           >
             <div className="md:mt-[145px] sm:mt-[80px] xs:mt-[40px] sm:h-[663.5px]">
               <div
-                className="mt-[63.25px] mb-[72.27px] 
+                className="mt-[63.25px] mb-[72.27px] border border-black-border
             xl:w-[516.44px] md:h-[527.98px] xs:h-[350.98px] 
             "
               >
@@ -86,12 +86,12 @@ const BigCard = () => {
           </div>
           {/*second card */}
           <div className="xl:mx-[0px] lg:mx-[70px] md:mx-[67px] sm:mx-[30px] xs:mx-[20px] ">
-            <div className="xl:mt-[128px]">
+            <div className="">
               <div className="h-[560.05px] ">
                 <div className="xl:ml-[644.44px] ">
                   <p
                     className="font-bold 
-                xl:text-[60px] lg:text-[50px] 
+                xl:text-[60px] lg:text-[50px]   
                 md:text-[40px] sm:text-[30px] 
                 xs:text-[25px] text-black-heads xl:w-[628.58px] "
                   >
